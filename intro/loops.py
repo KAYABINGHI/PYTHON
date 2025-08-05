@@ -14,11 +14,16 @@ while to_loop:
 k = 0
 while k < 10:
     print("k is", k)
-    k += 1
+    k = k + 1
 
 
 for i in range(0, 10):
     print("for loop is", i)
+
+for i in range (0, 10, 2):  # step of 2
+    print("for loop is", i)
+
+    
 
 for i in range(0, 1000, 2):  # step of 2
     print("for loop is", i)
