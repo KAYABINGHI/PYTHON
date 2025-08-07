@@ -1,0 +1,8 @@
+
+This is a log entry.
+
+This is a log entry.
+
+This is a log.
+
+Function 'counter' executed in 21.0691 seconds
