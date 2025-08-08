@@ -1,5 +1,5 @@
 
-static # static.py
+
 # This file contains a class definition for Human with properties and methods.      
 # It includes an initializer, a method to get the name, and a method to print the object's details.
 #Getter a property of: <name>:<name>    
