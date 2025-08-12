@@ -56,6 +56,10 @@ class Human():
         print("curse",self._curse)
         print("---------------------")
 
+    @classmethod
+    def get_general_info(cls):
+        print("Species",cls.species)
+        print("Genus",cls.genus)
 
 # adam=Human(name="adam",gender="Male") #object from a class
 adam=Human(name="adam",gender="Male")
