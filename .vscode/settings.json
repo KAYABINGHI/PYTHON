@@ -18,5 +18,24 @@
         "titleBar.inactiveBackground": "#1857a499",
         "titleBar.inactiveForeground": "#e7e7e799"
     },
-    "peacock.color": "#1857a4"
+    "peacock.color": "#1857a4",
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "aws-1-eu-west-2.pooler.supabase.com",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "my_pg",
+            "database": "postgres",
+            "username": "postgres.fiaaiixdtlqkuwfgsriz",
+            "password": "alohakarime"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "piga_jina",
+            "database": "${workspaceFolder:Python}/dbs/sqlite/db.db"
+        }
+    ]
 }
